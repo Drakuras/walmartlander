@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail Rewards - Claim Your $750 Reward</title>
+    <meta name="description" content="Take a quick survey to qualify for a $750 shopping reward. Limited time offer.">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <!-- SVG Spark Logo (Recreated to avoid branding text) -->
+                <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g transform="translate(50,50)">
+                        <rect x="-6" y="-45" width="12" height="30" rx="6" fill="#FFC220" />
+                        <rect x="-6" y="-45" width="12" height="30" rx="6" fill="#FFC220" transform="rotate(60)" />
+                        <rect x="-6" y="-45" width="12" height="30" rx="6" fill="#FFC220" transform="rotate(120)" />
+                        <rect x="-6" y="-45" width="12" height="30" rx="6" fill="#FFC220" transform="rotate(180)" />
+                        <rect x="-6" y="-45" width="12" height="30" rx="6" fill="#FFC220" transform="rotate(240)" />
+                        <rect x="-6" y="-45" width="12" height="30" rx="6" fill="#FFC220" transform="rotate(300)" />
+                    </g>
+                </svg>
+            </div>
+            <h1>Your $750 Reward Is Waiting!</h1>
+            <p>You have been selected to receive a $750 Shopping Reward from our partner retailer. Click below to claim
+                your prize immediately.</p>
+        </header>
+
+        <main id="quiz-container">
+            <!-- Simplified Final CTA -->
+            <div class="final-cta active" id="final-step">
+                <div class="reward-info"
+                    style="background: rgba(0, 113, 206, 0.1); border-radius: 20px; padding: 2rem; margin-bottom: 2rem; border: 1px solid rgba(0, 113, 206, 0.3);">
+                    <span style="font-size: 3.5rem; font-weight: 800; color: var(--primary-yellow);">$750.00</span>
+                    <p style="margin-bottom: 0; color: #fff; font-size: 1.2rem; margin-top: 0.5rem;">Total Value
+                        Available</p>
+                </div>
+                <button class="cta-button" onclick="claimOffer()">CLAIM MY $750 REWARD</button>
+                <p style="font-size: 0.9rem; margin-top: 1.5rem; color: var(--text-muted);">Offer valid for US residents
+                    only. Limited quantities available.</p>
+            </div>
+        </main>
+    </div>
+
+    <section class="faq-section">
+        <details>
+            <summary>Is this offer real?</summary>
+            <p>Yes! We partner with major retailers to provide shopping rewards in exchange for consumer feedback. Every
+                day, lucky winners claim their rewards after completing our short surveys.</p>
+        </details>
+        <details>
+            <summary>How do I receive my reward?</summary>
+            <p>Once you click the "Claim Now" button, you will be redirected to our fulfillment partner who will guide
+                you through the final verification and delivery steps.</p>
+        </details>
+        <details>
+            <summary>Are there any hidden fees?</summary>
+            <p>Our surveys are free to enter. Some partner offers may require specific actions, but the initial reward
+                claim process is transparent and straightforward.</p>
+        </details>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Retailer Rewards Program. All rights reserved.</p>
+        <p>This site is not affiliated with any specific retail brand. Names and trademarks are property of their
+            respective owners. This is an independent marketing promotion.</p>
+        <p>Privacy Policy | Terms of Service | Contact Us</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
